@@ -14,6 +14,7 @@ RAILS_ENV=development bundle exec rake db:setup
 ```
 
 Creating a account so you can log into propile:
+
 1. start a rails console using the development environment:
 
     ```
