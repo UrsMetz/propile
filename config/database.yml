@@ -6,10 +6,10 @@ base_db: &base_db
   pool: 5
 
 development:
-  <<: *base_db
-  database: <%= ENV[ 'PROPILE_DEV_DB_NAME' ] %>
-  username: <%= ENV[ 'PROPILE_DEV_DB_USER' ] %>
-  password: <%= ENV[ 'PROPILE_DEV_DB_PASS' ] %>
+  adapter: sqlite3
+  database: data/development.sqlite3
+  pool: 5
+  timeout: 5000
 
 test:
   <<: *base_db

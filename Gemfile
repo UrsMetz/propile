@@ -10,6 +10,7 @@ gem 'htmlentities'
 
 
 group :test, :development do
+  gem 'sqlite3'
   gem 'dotenv-rails'
   gem 'rspec-rails', '~> 2.9'
   gem 'capybara'

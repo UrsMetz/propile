@@ -1,3 +1,5 @@
 .env
 log/*
 tmp/*
+
+data/development.sqlite3
